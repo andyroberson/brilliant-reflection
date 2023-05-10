@@ -16,4 +16,4 @@ Build (to live):
 `rm -rf docs && yarn parcel build --public-url ./ --dist-dir docs index.html`
 
 
-Live: 
+Live: https://andyroberson.github.io/brilliant-reflection/

@@ -1,6 +1,8 @@
 import * as d3 from 'd3';
 import * as geometric from 'geometric';
 
+console.log(d3, geometric) //workaround because parcel has import bug atm https://github.com/parcel-bundler/parcel/issues/8792s
+
 export default class ReflectionChart {
     constructor(id) {
         this.id = id

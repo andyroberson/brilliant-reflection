@@ -1,6 +1,7 @@
 import * as d3 from 'd3';
 import * as geometric from 'geometric';
 
+console.log(d3, geometric) //workaround because parcel has import bug atm https://github.com/parcel-bundler/parcel/issues/8792s
 
 export default class AppleChart {
     constructor(id) {
@@ -221,7 +222,6 @@ export default class AppleChart {
         options.reflectedAngle = geometric.angleReflect(options.startAngle - 180, options.surfaceAngle); // subtract 180 from start angle so that it begins at start point
         options.startPoint = geometric.pointTranslate(options.center, options.startAngle, options.distance);
         options.reflectedPoint = geometric.pointTranslate(options.center, options.reflectedAngle, options.distance);
-        console.log(options.reflectedLine)    
 
         options.startLine
             .attr("x1", options.startPoint[0])

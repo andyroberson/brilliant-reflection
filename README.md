@@ -13,7 +13,7 @@ View:
 
 
 Build (to live):
-`rm -rf docs && parcel build --public-url ./ --dist-dir docs index.html`
+`rm -rf docs && yarn parcel build --public-url ./ --dist-dir docs index.html`
 
 
 Live: 

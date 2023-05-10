@@ -1,0 +1,6 @@
+dist
+.parcel-cache
+yarn-error.log
+node_modules
+.DS_Store
+docs/report.html
